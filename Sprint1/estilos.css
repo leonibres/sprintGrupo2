@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.formRegister{
+    width: 400px;
+    background: #00205b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-size: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formRegister h4 {
+    font-size: 24px;
+    margin-bottom:22px;
+}
+
+.form-control{
+    width: 100%;
+    background: #00205b;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.formRegister p {
+    height:40px;
+    text-align:center;
+    font-size: 17px;
+}
+
+.formRegister a {
+    color: white;
+    text-decoration: none;
+}
+
+.formRegister a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.formRegister .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
