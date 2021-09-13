@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Document</title>
+</head>
+<body>
+<!-- creamos el formulario -->
+<form class="formRegister" id="form_registrarse" name="form" method="post">
+  <h4>Formulario de registro</h4>
+  <input class="form-control" name="username" id="in_nombre_usuario" type="text" placeholder="Ingrese su usuario" minlength="5" maxlength="40" required><br/>
+
+  <input class="form-control" type="password" name="pass1" id="in_contrasena"  value="clave" placeholder="Ingrese su contraseña"
+  required pattern="[A-Za-z0-9]{8,12}" title="Letras y números. Tamaño mínimo: 8. Tamaño máximo: 12"><br/>
+
+  <input class="form-control" type="password" name="pass2" id="in_confirmar_contrasena" placeholder=" Confirme su contraseña"><br/>
+
+  <p>Para entrar al programa debes aceptar nuestros términos<br><label><input type="checkbox" name="cb-terminosservicio" required> Acepto los términos del servicio</label><br><br></p>
+  <input class="botons" type="submit" id="btn_registrar_usuario" value="Enviar formulario"/>
+
+</form>
+</body>
+</html>
