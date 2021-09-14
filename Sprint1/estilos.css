@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+#contenedor{
+    width: 950px;
+    margin: 0 auto;
+}
+
+
+section #contenido {
+    width: 750px;
+    height: 450px;
+    margin-top: 10px;
+    background: white;
+    float:left;
+    box-shadow: 0px 5px;
+}
 
 .formRegister{
     width: 400px;
@@ -57,3 +71,4 @@
     margin: 16px 0;
     font-size: 16px;
 }
+
