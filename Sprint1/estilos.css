@@ -8,6 +8,20 @@
     margin: 0 auto;
 }
 
+#encabezado{
+    background-color: cadetblue;
+}
+
+#encabezado > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#encabezado > p{
+    margin: 10%;
+    margin-top: auto;
+    text-align: center
+}
 
 section #contenido {
     width: 750px;
